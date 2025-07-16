@@ -9,7 +9,6 @@ public class Gerente extends Empleado {
     @Override
     public void mostrarInformacion() {
         super.mostrarInformacion();
-        System.out.println(getNombre());
     }
     public void aprobarPresupuesto() {
         System.out.println(getNombre() + " ha aprobado un presupuesto.");

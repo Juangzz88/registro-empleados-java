@@ -13,6 +13,5 @@ public class Tecnico extends Empleado {
     }
 
     public void realizarMantenimiento() {
-        System.out.println(getNombre());
     }
 }
